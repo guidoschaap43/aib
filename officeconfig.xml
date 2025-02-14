@@ -1,0 +1,22 @@
+<Configuration>
+  <Add OfficeClientEdition="64" Channel="SemiAnnual">
+    <Product ID="O365ProPlusRetail">
+      <Language ID="nl-NL" />
+      <ExcludeApp ID="Groove" />
+      <ExcludeApp ID="Lync" />
+      <ExcludeApp ID="OneDrive" />
+      <ExcludeApp ID="Teams" />
+    </Product>
+    <Product ID="VisioProRetail" > 
+      <Language ID="nl-NL" />
+   </Product> 
+   <Product ID="ProjectProRetail" > 
+     <Language ID="nl-NL" />
+   </Product> 
+  </Add>
+  <RemoveMSI/>
+  <Updates Enabled="TRUE"/>
+  <Display Level="None" AcceptEULA="TRUE" />
+  <Property Name="FORCEAPPSHUTDOWN" Value="TRUE"/>
+  <Property Name="SharedComputerLicensing" Value="1"/>
+</Configuration>
